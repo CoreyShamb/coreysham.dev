@@ -46,3 +46,4 @@ For a deeper understanding of the technologies used in this template, check out 
 - [shadcn](https://ui.shadcn.com) - The front-runner in headless UI implementation
 - [Tailwind CSS](https://tailwindcss.com) - A utility-first CSS framework
 - [Next.js](https://nextjs.org/docs) - learn about Next.js features and API.
+
