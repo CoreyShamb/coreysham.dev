@@ -1,49 +1,193 @@
-# Devstarter - by Zippystarter
+# CoreySham Developer Portfolio
 
-Devstarter is one-page developer portfolio template
-from [Zippystarter](https://zippystarter.com). It's built
-with [Next.js](https://nextjs.org) and [shadcn](https://ui.shadcn.com).
+Personal developer portfolio for **Corey Shamburger**, showcasing software development projects, technical skills, experience, and professional work.
 
-This [shadcn template](https://zippystarter.com/templates/devstarter) is fully
-compatible with shadcn's theming system.
+Built with **Next.js, React, TypeScript, Tailwind CSS, and shadcn/ui** and deployed with **Vercel**.
 
-To experiment with [shadcn themes](https://zippystarter.com/themes), head on
-over to
-the [shadcn theme generator](https://zippystarter.com/tools/shadcn-ui-theme-generator/demo/dev-one?utm_source=https://github.com/zippystarter/template-devone)
-where you'll be able to apply themes to the template and export them for your
-own use.
+## Live Site
 
-![devstarter](public/og.jpg)
+**Production:** https://coreysham.dev
+
+## Technology Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- pnpm
+- Vercel
+- GitHub
+- Jira
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-Install the dependencies. I recommend using `pnpm`. If you want to use `npm`, just replace pnpm with `npm`.
+Before running the project locally, make sure you have **Node.js** and **pnpm** installed.
+
+Check your installations:
+
+```bash
+node --version
+pnpm --version
+```
+
+### Clone the Repository
+
+Clone the repository from GitHub:
+
+```bash
+git clone https://github.com/CoreyShamb/coreysham.dev.git
+cd coreysham.dev
+```
+
+### Install Dependencies
+
+Install the project dependencies:
 
 ```bash
 pnpm install
 ```
 
-Then, start the development server:
+### Start the Development Server
+
+Run:
 
 ```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The development server is configured to run on:
 
-## Notes
+```text
+http://localhost:3002
+```
 
-This template makes use of modern CSS features such as CSS Grid & Subgrid &
-mix-blend-mode.
+Open the URL in your browser to view the application.
 
-## Learn More
+The development server automatically reloads the application as changes are made.
 
-For a deeper understanding of the technologies used in this template, check out the resources listed below:
+## Project Structure
 
-- [Zippystarter](https://zippystarter.com) - Learn about Zippystarter's features and products
-- [shadcn](https://ui.shadcn.com) - The front-runner in headless UI implementation
-- [Tailwind CSS](https://tailwindcss.com) - A utility-first CSS framework
-- [Next.js](https://nextjs.org/docs) - learn about Next.js features and API.
+The repository is organized around the Next.js App Router architecture.
 
+```text
+coreysham.dev/
+├── .vscode/
+├── app/
+├── components/
+├── lib/
+├── public/
+├── .gitignore
+├── components.json
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── postcss.config.mjs
+├── tsconfig.json
+├── LICENSE
+└── README.md
+```
+
+### Main Directories
+
+- `app/` — Next.js application routes, layouts, pages, and application-level files.
+- `components/` — Reusable React and UI components.
+- `lib/` — Shared utilities and supporting application logic.
+- `public/` — Static assets such as images, documents, and other public files.
+- `.vscode/` — VS Code workspace configuration.
+
+## Development Workflow
+
+Development work for the portfolio is tracked through **Jira** and integrated with **GitHub**.
+
+Changes should be developed on dedicated branches rather than directly on `main`.
+
+### Jira Work Items
+
+Development work uses the `CSD` Jira project key.
+
+Example:
+
+```text
+CSD-2 Improve GitHub project documentation
+```
+
+### Branches
+
+Branch names should include the associated Jira work-item key.
+
+Example:
+
+```text
+CSD-2-improve-GitHub-project-documentation
+```
+
+Create or switch to the appropriate development branch before making changes.
+
+### Commits
+
+Commit messages should also include the Jira work-item key so GitHub development activity can be associated with the corresponding Jira work item.
+
+Example:
+
+```bash
+git add .
+git commit -m "CSD-2 Improve GitHub project documentation"
+git push
+```
+
+### Pull Requests
+
+Changes are reviewed through **GitHub pull requests** before being merged into `main`.
+
+A typical development workflow is:
+
+```text
+Jira Work Item
+      ↓
+Development Branch
+      ↓
+Code Changes
+      ↓
+Git Commit
+      ↓
+GitHub
+      ↓
+Pull Request
+      ↓
+Review
+      ↓
+Merge to main
+      ↓
+Vercel Deployment
+```
+
+## Deployment
+
+The production application is deployed with **Vercel** and integrated with GitHub.
+
+Changes merged into `main` are automatically built and deployed through the GitHub and Vercel integration.
+
+**Production:** https://coreysham.dev
+
+## Repository
+
+**GitHub:** https://github.com/CoreyShamb/coreysham.dev
+
+## Project Status
+
+This portfolio is actively maintained and continues to evolve as new projects, technologies, technical skills, and professional experience are added.
+
+Development tasks, improvements, documentation changes, and bug fixes are managed through the project's Jira development workflow.
+
+## Author
+
+**Corey Shamburger**  
+Software Developer
+
+- Portfolio: https://coreysham.dev
+- GitHub: https://github.com/CoreyShamb
