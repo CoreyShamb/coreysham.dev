@@ -29,6 +29,23 @@ import { ScrollToTop } from "@/components/scroll-to-top";
 export default function Home() {
   const projects = [
     {
+      title: "TERVYQA Core",
+      description:
+        "Autonomous Intelligence Infrastructure R&D platform focused on governed AI systems, canonical schemas, authorization boundaries, evidence, verification, and auditable actions.",
+      tags: [
+        "TypeScript",
+        "Node.js",
+        "API Architecture",
+        "Schema Design",
+        "AI Systems",
+      ],
+      image: "/tervyqa-core.jpeg",
+      link: "https://github.com/CoreyShamb/tervyqa-core",
+      linkLabel: "View Project",
+      repo: "https://github.com/CoreyShamb/tervyqa-core.git",
+    },
+
+    {
       title: "OPERRA",
       description:
         "Developer infrastructure and SaaS API platform featuring multi-tenant organizations, API key management, usage tracking, billing workflows, and production-oriented backend architecture.",
@@ -484,7 +501,7 @@ export default function Home() {
               {/* About Content */}
               <div className="w-full min-w-0 max-w-xl">
                 <div className="mb-5 font-mono text-xs text-primary">
-                  // SOFTWARE_DEVELOPER
+                  &#47;&#47; SOFTWARE_DEVELOPER
                 </div>
 
                 <h3 className="mb-6 font-display text-2xl leading-tight sm:text-3xl">
@@ -523,7 +540,7 @@ export default function Home() {
         <div className="mx-auto w-full max-w-2xl text-center">
           <div className="mb-8 text-center sm:mb-12">
             <h2 className="mb-4 font-display text-3xl sm:text-4xl">
-              INITIATE_CONTACT
+              &#47;&#47; INITIATE_CONTACT
             </h2>
 
             <p className="mx-auto max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-base">
